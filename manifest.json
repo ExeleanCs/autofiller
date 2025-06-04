@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Refresh",
+  "description": "Refreshes the current page at given intervals.",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["tabs", "storage", "alarms"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
